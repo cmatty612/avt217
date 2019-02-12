@@ -6,4 +6,8 @@ div {
   width: 100px;
   height: 100px;
   background-color: black;
+  float: left;
+}
+div:nth-child(n+3){
+  backgrond-color: red;
 }
