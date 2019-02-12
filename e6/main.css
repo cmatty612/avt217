@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.pattern1 .first {
+  background-color: green;
+  margin: -10px;
+  opacity: .8;
+}
+.pattern1 .second {
+  background-color: none;
+  margin: -20px;
+  opacity: .8;
+  border-radius: 100%;
+  border: 10px solid blue;
+}
+.pattern1 .third {
+  background-color: yellow;
+  margin: -50px;
+  opacity: .9;
+  border: 10px solid white;
+}
+.pattern1 .fourth {
+  background-color: black;
+  margin: 0px;
+}
+.pattern1 .fifth {
+  background-color: black;
+  margin: -10px;
+  opacity: .2;
+  border-radius: 25px;
+}
+.pattern2 .first {
+  background-color: green;
+  margin: -40px;
+  opacity: .8;
+}
+.pattern2 .second {
+  background-color: none;
+  margin: -20px;
+  opacity: .8;
+  border-radius: 100%;
+  border: 10px solid purple;
+}
+.pattern2 .third {
+  background-color: orange;
+  margin: -50px;
+  opacity: .4;
+  border: 10px solid black;
+}
+.pattern2 .fourth {
+  background-color: cyan;
+  margin: 0px;
+}
+.pattern2 .fifth {
+  background-color: blue;
+  margin: -10px;
+  opacity: .2;
+  border-radius: 25px;
+}
