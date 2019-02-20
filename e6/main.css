@@ -1,66 +1,393 @@
-
-body {
-  margin: 0;
+body{
+  margin:-100px;
   padding: 0;
+  width: 140%
 }
+
 div {
   width: 200px;
   height: 200px;
-  float: right;
+  float: left;
 }
-.pattern1 .first {
-  background-color: green;
-  margin: -10px;
-  opacity: .8;
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
 }
-.pattern1 .second {
-  background-color: none;
-  margin: -20px;
-  opacity: .8;
-  border-radius: 100%;
-  border: 10px solid blue;
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
 }
-.pattern1 .third {
-  background-color: yellow;
-  margin: -50px;
-  opacity: .9;
-  border: 10px solid white;
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
 }
-.pattern1 .fourth {
-  background-color: black;
-  margin: 0px;
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
 }
-.pattern1 .fifth {
-  background-color: black;
-  margin: -10px;
-  opacity: .2;
-  border-radius: 25px;
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
 }
-.pattern2 .first {
-  background-color: green;
-  margin: -40px;
-  opacity: .8;
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
 }
-.pattern2 .second {
-  background-color: none;
-  margin: -20px;
-  opacity: .8;
-  border-radius: 100%;
-  border: 10px solid purple;
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
 }
-.pattern2 .third {
-  background-color: orange;
-  margin: -50px;
-  opacity: .4;
-  border: 10px solid black;
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
 }
-.pattern2 .fourth {
-  background-color: cyan;
-  margin: 0px;
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
 }
-.pattern2 .fifth {
-  background-color: blue;
-  margin: -10px;
-  opacity: .2;
-  border-radius: 25px;
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
 }
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern1 .circle {
+  height: 100px;
+  width: 200px;
+  background-color: Blue;
+  margin:auto;
+  border-radius: 200px;
+}
+.pattern1 .triangle {
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: realative;
+}
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: Red;
+  float: left;
+}
+.pattern2 .circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: Blue;
+  border-radius: 150px;
+}
+.pattern2 .circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: Blue;
+  border-radius: 150px;
+
+}
+.pattern2 .circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: Blue;
+  border-radius: 150px;
+
+}
+.pattern2 .circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: Blue;
+  border-radius: 150px;
+
+}
+.pattern2 .circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: Blue;
+  border-radius: 150px;
