@@ -1,0 +1,111 @@
+body{
+  margin:-100px;
+  padding: 0;
+  width: 140%
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.pattern1 .square {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+
+}
+.pattern1 .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:black;
+}
+.pattern1 .triangle {
+    width: 20px;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+/* .pattern2 .rectangle{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.pattern2 .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: blue;
+}
+.pattern3 .rectangle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+.pattern3 .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:black;
+}
+.pattern3 .triangle {
+    width: 20px;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+.pattern3 .rectangle{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.pattern3 .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: blue;
+}
+.pattern4 .rectangle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+.pattern4 .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:black;
+}
+.pattern4 .triangle {
+    width: 20px;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+.pattern5 .rectangle{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.pattern5 .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: blue;
+}
+.pattern5 .rectangle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+.pattern5 .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:black;
+} */
