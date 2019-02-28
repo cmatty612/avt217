@@ -1,0 +1,27 @@
+.side {
+  height: 500px;
+  width: 200px;
+  background-color: green;
+  outline-color: white;
+  float: left;
+}
+.back {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  outline-color: white;
+  float: left;
+}
+
+.court {
+height: 400px;
+width: 400px;
+background-color: green;
+outline-color: white;
+float: left;
+}
+
+.middle {
+
+
+}

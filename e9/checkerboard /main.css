@@ -1,0 +1,21 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: Black;
+  float: left;
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+}
+
+.red{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.black{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
