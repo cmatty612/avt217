@@ -1,0 +1,32 @@
+
+#header {
+  height:300px;
+  width: 1680px;
+  background-color: red;
+}
+
+#headercontainer{
+  width:300px;
+  margin: 20px auto;
+}
+
+#bodycontainer{
+  width:600px;
+  margin: 0 auto;
+}
+
+
+h1 {
+font-size: 100px;
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#date{
+  width: 500px;
+}
