@@ -29,7 +29,7 @@ div {
   border-right: 20px solid transparent;
   border-bottom: 20px solid black;
 }
-/* .pattern2 .rectangle{
+.pattern2 .rectangle{
   width: 100px;
   height: 100px;
   background-color: yellow;
@@ -108,4 +108,4 @@ div {
   height: 50px;
   border-radius: 25px;
   background-color:black;
-} */
+}

@@ -1,0 +1,20 @@
+
+.header{
+  height: 200px;
+  width: 1000px;
+}
+.column1 {
+  height: 1000px;
+  width: 200px;
+  background-color: blue;
+}
+.column2{
+  height: 1000px;
+  width: 200px;
+  background-color: blue;
+}
+.column3{
+  height: 1000px;
+  width: 200px;
+  background-color: blue;
+}

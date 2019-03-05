@@ -1,0 +1,54 @@
+body {
+  background-color: #272178;
+}
+
+body1 {
+  background-color: black;
+}
+h1{
+  font-family: 'Muli', sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+p{
+  font-family: 'Muli', sans-serif;
+  font-size: 50px;
+  color: white;
+  /* text-align: justify; */
+
+}
+#container {
+  width:1000px;
+  margin:60px auto 0;
+}
+
+#container1 {
+  width:1000px;
+  margin:60px auto 0;
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  background-color: yellow;
+  position: relative;
+
+}
+.circle2{
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  background-color: #272178;
+  position: relative;
+  left: 100px;
+  right: 100px;
+  bottom: 250px;
+}

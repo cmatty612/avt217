@@ -1,27 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+#court {
+  width: 800px;
+}
+
 .side {
   height: 500px;
   width: 200px;
   background-color: green;
-  outline-color: white;
+  border: 12px solid white;
   float: left;
 }
 .back {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 400px;
   background-color: green;
-  outline-color: white;
+  border: 12px solid white;
   float: left;
 }
 
-.court {
-height: 400px;
-width: 400px;
+.middle {
+height: 200px;
+width: 200px;
 background-color: green;
-outline-color: white;
+border: 12px solid white;
 float: left;
 }
 
-.middle {
-
+.bigsquare {
+  width: 400px;
+  float: left;
 
 }
