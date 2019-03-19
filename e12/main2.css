@@ -1,0 +1,27 @@
+body {
+  color: white;
+}
+
+#header {
+  height:300px;
+  width: 1680px;
+  background-color: DarkBlue;
+
+}
+
+#headercontainer{
+  width:700px;
+  margin: 20px auto;
+}
+
+#line{
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid white;
+  position: absolute;
+}
+
+#textcontainer{
+  width:600px;
+  margin: 0 auto;
+}

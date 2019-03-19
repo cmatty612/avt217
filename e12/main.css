@@ -3,6 +3,7 @@
   height:300px;
   width: 1680px;
   background-color: red;
+
 }
 
 #headercontainer{
@@ -10,23 +11,29 @@
   margin: 20px auto;
 }
 
-#bodycontainer{
+#textcontainer{
   width:600px;
   margin: 0 auto;
 }
 
+h2 {
+font-size: 100px;
+padding-top: 175px;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
 
 h1 {
-font-size: 100px;
-font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
 }
 
 body {
  font-family: 'Montserrat', sans-serif;
 }
 
-
-
 #date{
-  width: 500px;
+  width: 1px;
+  position: absolute;
+  top: 600px;
+  left: 20px;
 }
