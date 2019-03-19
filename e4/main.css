@@ -1,0 +1,17 @@
+body {
+  background-color: WhiteSmoke;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #84BE6A;
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#textcontainer{
+  width:600px;
+  margin: 0 auto;
+}
