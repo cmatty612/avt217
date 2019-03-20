@@ -1,0 +1,13 @@
+#header {
+  width: 1650px;
+  height: 100px;
+  background: black;
+}
+#textcontainer{
+  width: 400px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  color: white;
+}
