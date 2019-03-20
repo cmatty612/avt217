@@ -1,5 +1,14 @@
-body {
+
+h1, h2 {
   color: white;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 100px;
+}
+body {
+  color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 #header {
@@ -16,12 +25,12 @@ body {
 
 #line{
   width: 112px;
-  height: 47px;
+  height: -40px;
   border-bottom: 1px solid white;
   position: absolute;
 }
 
 #textcontainer{
   width:600px;
-  margin: 0 auto;
+  margin:0 auto;
 }

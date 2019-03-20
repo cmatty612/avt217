@@ -1,22 +1,19 @@
-#hr{
-  display: block;
-  height: 1px;
-  border:0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-#textcontainer{
-  width:600px;
-  margin: 0 auto;
+h1, h2{
+    font-family: 'Quicksand', sans-serif;
 }
 
-h1 {
-  float: left;
-  font-size: 100px;
+h1{
+  color: #E83429;
+  font-size: 70px;
 }
 
-h2 {
-  float:left;
-  font-size: 20px;
+body {
+  font-family: 'Vollkorn', serif;
+}
+
+#authorcontainer{
+  width: -100px; 
+}
+#textcontainer {
+  width: 600px;
 }
