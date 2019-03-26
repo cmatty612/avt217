@@ -1,0 +1,56 @@
+body {
+  background-color: WhiteSmoke;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #84BE6A;
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#textcontainer{
+  width:600px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: WhiteSmoke;
+  }
+  main {
+    width: 80vw;
+  }
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  main {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 8em;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  body {
+    background-color: WhiteSmoke;
+    color: black;
+
+  }
+  main {
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  body {
+    background-color: black;
+    color: whitesmoke;
+  }
+  main {
+    width: 40vw;
+  }
+}
