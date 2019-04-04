@@ -13,5 +13,9 @@ body {
 
 a:link {
   text-decoration: none;
-  color: navy;
+  color: blue;
+}
+
+#name {
+  letter-spacing: 2px;
 }
