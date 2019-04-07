@@ -2,10 +2,7 @@ body {
    background-color: #F2F3DF;
 }
 
-h1, {
-font-family: 'Lora', serif;
-color: navy;
-}
+
 
 body {
   font-family: 'Quicksand', sans-serif;
@@ -13,9 +10,26 @@ body {
 
 a:link {
   text-decoration: none;
-  color: blue;
+  color: black;
 }
 
+#title{
+  letter-spacing: 10px;
+  font-size: 100px;
+  letter-spacing: 25px;
+  font-family: ltc-bodoni-175, serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
 #name {
-  letter-spacing: 2px;
+  letter-spacing: 10px;
+  font-family: 'Lora', serif;
+  color: black;
+  letter-spacing: 10px;
+  font-family: ltc-bodoni-175, serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
