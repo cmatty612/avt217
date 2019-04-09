@@ -5,24 +5,29 @@
 }
 #five {
   background-color:deepskyblue;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 
 }
 #four{
   background-color: black;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 }
 #three{
   background-color: deepskyblue;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 }
 #two{
   background-color: black;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 }
 #one{
   background-color: deepskyblue;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 }
 h1 {
   font-size: 2em;

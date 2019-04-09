@@ -37,6 +37,9 @@ h3 {
    font-weight: 200;
    font-style: normal
  }
+h4 {
+  color: black;
+}
 
  }
 #logo
@@ -119,10 +122,22 @@ h5 {
   color: black;
 
 }
+
 #footer{
   background-color: black;
   height: 200px;
   width: 2500px;
   position: absolute;
   top: 2300px;
+}
+
+#container {
+  height: 600px;
+  width: 600px;
+}
+.pic-one {
+  float: left;
+  height: 100px;
+  width: 100px;
+  color: black;
 }
