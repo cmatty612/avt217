@@ -6,7 +6,7 @@
 }
 #thebestdessert{
   position: absolute;
-  top: 185px;
+  top: 155px;
   left: 200px;
   letter-spacing: 10px;
 }
@@ -16,6 +16,7 @@ h1 {
   font-style: normal;
   font-size: 80px;
   letter-spacing: 10px;
+  margin-left: 70px;
 }
 h2 {
   font-family: gibbs,sans-serif;
@@ -44,24 +45,33 @@ h4 {
  }
 #logo
 {
-  padding-top: 20px;
-  padding-right: 30px;
+  width: 1440px;
+  marg 20px;
+  /* padding-right: 60px; */
   padding-bottom: 20px;
-  padding-left: 60px;
+  padding-left: 600px;
 
+}
+
+.header{
+  width:1440px;
+  margin-left: 0;
+  position: relative;
 }
 
 #cakebatter {
+  width: 746px;
+  height: auto;
   position: absolute;
-  top: 400px;
-  left: 1150px;
+  top: 20px;
+  left: 800px;
 }
 
-#blackbox{
+.blackbox{
   background-color: black;
   height: 500px;
   width: 1030px;
-  position: absolute;
+  /* position: absolute; */
   top: 300px;
   left: 0;
 
@@ -70,6 +80,16 @@ h4 {
   padding-bottom: 20px;
   padding-left: 75px;
 }
+
+.headertext{
+  width: 538px;
+  height: 337px;
+}
+
+.bodycontainer h3, .bodycontainer p{
+  color: black;
+}
+
 
 #angelcake {
   position: absolute;
@@ -140,4 +160,15 @@ h5 {
   height: 100px;
   width: 100px;
   color: black;
+}
+
+@media only screen and (max-width: 1024px){
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 
+
+  }
 }
