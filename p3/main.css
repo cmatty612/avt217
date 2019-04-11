@@ -99,20 +99,23 @@ h4 {
 
 #carrotcake {
   position: absolute;
-  top: 1900px;
+  top: 1800px;
   left: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 #choosingrightcake{
   position: absolute;
   top: 1000px;
   left: 200px;
+
 }
 
 #redvelvet {
   position: absolute;
-  top: 1500px;
-  left: 950px;
+  top: 2100px;
+  left: 300px;
 }
 
 #vanilla {
@@ -143,13 +146,13 @@ h5 {
 
 }
 
-#footer{
+/* #footer{
   background-color: black;
   height: 200px;
   width: 2500px;
   position: absolute;
   top: 2300px;
-}
+} */
 
 #container {
   height: 600px;
@@ -160,13 +163,7 @@ h5 {
   padding-left: 300px;
   padding-right: 300px;
 
-}
-.pic-one {
-  float: left;
-  height: 100px;
-  width: 100px;
-  color: black;
-}
+
 
 
 @media only screen and (max-width: 1024px){
@@ -192,16 +189,18 @@ h5 {
     top: 200px;
     left: 500px;
   }
-  .blackbox{
-    background-color: black;
-    height: 500px;
+  #angelcake{
     width: 200px;
+    height: auto;
+    position: absolute;
     top: 200px;
-
-
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-bottom: 20px;
-    padding-left: 75px;
+    left: 500px;
+  }
+  #carrotcake {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 900px;
   }
 }
