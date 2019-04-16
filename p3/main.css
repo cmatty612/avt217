@@ -1,13 +1,13 @@
-}
+body {margin: 0;}
 #logo{
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0px;
+  left: 0px; */
 }
 #thebestdessert{
-  position: absolute;
+  /* position: absolute;
   top: 155px;
-  left: 200px;
+  left: 200px; */
   letter-spacing: 10px;
 }
 h1 {
@@ -45,35 +45,35 @@ h4 {
  }
 #logo
 {
-  width: 1440px;
-  marg 20px;
+  /* width: 1440px; */
+  /* marg 20px; */
   /* padding-right: 60px; */
   padding-bottom: 20px;
-  padding-left: 600px;
+  /* padding-left: 600px; */
 
 }
 
 .header{
-  width:1440px;
+  /* width:1440px; */
   margin-left: 0;
   position: relative;
 }
 
 #cakebatter {
-  width: 746px;
+  /* width: 746px; */
   height: auto;
   position: absolute;
   top: 20px;
-  left: 930px;
+  right: 0;
 }
 
 .blackbox{
   background-color: black;
-  height: 500px;
-  width: 1030px;
+  /* height: 500px; */
+  /* width: 1030px; */
   /* position: absolute; */
-  top: 300px;
-  left: 0;
+  /* top: 300px; */
+  /* left: 0; */
 
   padding-top: 20px;
   padding-right: 100px;
@@ -82,56 +82,72 @@ h4 {
 }
 
 .headertext{
-  width: 538px;
-  height: 337px;
+  /* width: 538px; */
+  /* height: 337px; */
 }
 
 .bodycontainer h3, .bodycontainer p{
   color: black;
 }
 
-
-#angelcake {
-  position: absolute;
-  top: 1500px;
-  left: 300px;
+/* img {max-width: 100%;} */
+.pic{
+  width: 25vw;
+  float: left;
+  height: 25vw;
+  background-color: orange;
+  margin: 10px;
 }
 
+#angelcake {
+    background: url("pics/angelcake.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 #carrotcake {
-  position: absolute;
-  top: 1800px;
-  left: 300px;
-  width: 250px;
-  height: 250px;
+  background: url("pics/carrotcake.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #choosingrightcake{
-  position: absolute;
-  top: 1000px;
-  left: 200px;
+
 
 }
 
 #redvelvet {
-  position: absolute;
-  top: 2100px;
-  left: 300px;
+  background: url("pics/redvelvet.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #vanilla {
-  position: absolute;
-  top: 1500px;
-  left: 600px;
+  background: url("pics/vanilla.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #germanchocolate {
-  position: absolute;
-  top: 1900px;
-  left: 600px;
+  background: url("pics/germanchocolate.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #chocolate {
-  position: absolute;
-  top: 1900px;
-  left: 950px;
+  background: url("pics/chocolate.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h4 {
@@ -159,14 +175,13 @@ h5 {
   width: 600px;
 }
 
-.bodycontainer {
-  padding-left: 300px;
-  padding-right: 300px;
+.bodycontainer, .image-container {
+  width: 75vw;
+  margin: 0 auto;
+}
 
+  /* @media only screen and (max-width: 1024px) {
 
-
-
-@media only screen and (max-width: 1024px){
   h1 {
     font-size: 60px;
   }
@@ -203,4 +218,4 @@ h5 {
     top: 200px;
     left: 900px;
   }
-}
+} */
