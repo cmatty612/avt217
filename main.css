@@ -1,11 +1,14 @@
 body {
-   background-color: #F2F3DF;
+   background-color: white;
 }
 
 
 
-body {
-  font-family: 'Quicksand', sans-serif;
+body, h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+
+
+
 }
 
 a:link {
@@ -17,19 +20,19 @@ a:link {
   letter-spacing: 10px;
   font-size: 100px;
   letter-spacing: 25px;
-  font-family: ltc-bodoni-175, serif;
   font-weight: 400;
   font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
 
 
 }
 #name {
   letter-spacing: 10px;
-  font-family: 'Lora', serif;
   color: black;
   letter-spacing: 10px;
-  font-family: ltc-bodoni-175, serif;
   font-weight: 400;
   font-style: normal;
+  font-family: 'Roboto', sans-serif;
 
 }
