@@ -24,10 +24,11 @@ p {
 <p id ="hours" </p>
 <p id="minutes"></p>
 <p id="seconds"></p>
+<p id="endmessage"></p>
 
 
 <script>
-var deadline = new Date("May 17, 2019 13:00:00").getTime();
+var deadline = new Date("May 1, 2019 13:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var t = deadline - now;
@@ -41,7 +42,8 @@ document.getElementById("minutes").innerHTML = minutes + " minutes "
 document.getElementById("seconds").innerHTML = seconds + " seconds "
     if (t < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "Con-GRAD-ulations!";
+        document.getElementById("days").innerHTML =  ""
+        document.getElementById("endmessage").innerHTML = "Con-GRAD-ulations!";
     }
 }, 1000);
 </script>
